@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.latest-match-card {
+  width: 100%;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-title {
+  font-size: 35px;
+}
+.match-result {
+  width: 30%;
+}
+.date {
+  font-size: 25px;
+  font-weight: 300;
+}
+.latest-match-description {
+  font-size: 20px;
+}
+.competing-team-logo {
+  width: 250px;
+  height: 200px;
+}
+.summary {
+  text-align: end;
+}
+.summary-heading {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .team-title {
+    font-size: 20px;
+  }
+  .date {
+    font-size: 15px;
+  }
+  .competing-team-logo {
+    width: 120px;
+    height: 120px;
+  }
+  .latest-match-description,
+  .summary-heading {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .team-title {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .competing-team-logo {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+  }
+  .latest-match-description,
+  .summary-heading {
+    font-size: 10px;
+  }
+}
